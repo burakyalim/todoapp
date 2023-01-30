@@ -1,0 +1,9 @@
+<tr>
+    <td class="listheader">Liste</td>
+</tr>
+<tr *ngFor="let data of listdata; let i = index">
+  <td>{{(i+1)}} - {{ data.input }}</td>
+  <button (click)="delete(i)" class="del">X</button>
+</tr>  
+
+

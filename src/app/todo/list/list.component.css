@@ -1,0 +1,25 @@
+th, td{
+    border: 2px solid rgb(30, 30, 30);
+    padding: 8px;
+    text-align: left;
+    width: 500px;
+}
+.listheader{
+    background-color: rgb(0, 81, 81);
+    border: 3px solid rgb(30, 30, 30);
+    padding: 5px;
+    text-align: center;
+    width: 500px;
+    color: rgb(253, 243, 230);
+    font-size: 24px;
+}
+.del{
+    border: 0.8px solid rgb(30, 30, 30);
+    transform: translateX(50%);
+    font-size: 20px;
+}
+.del:hover{
+    
+    color: rgb(255, 14, 14);
+    background-color: rgb(151, 151, 151);
+}
